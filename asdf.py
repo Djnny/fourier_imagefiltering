@@ -1,5 +1,5 @@
-from PIL import Image
 import sys
+from PIL import Image
 
 
 def pixel_data(path) -> list:
@@ -10,5 +10,6 @@ def pixel_data(path) -> list:
     values = list(image.getdata())
     return values
 
-balls = 'image.png'
+
+balls = 'testimage.JPG'
 stuff = pixel_data(balls)
